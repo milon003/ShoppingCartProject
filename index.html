@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Shopping Cart</h1>
+
+    <!-- Cart Summary Section -->
+    <div id="cart-summary">
+      <h2>Cart Summary</h2>
+      <p>Subtotal: $<span id="subtotal">100.00</span></p>
+      <p id="discount">Discount: $0.00</p>
+      <p id="final-total">Final Total: $100.00</p>
+    </div>
+
+    <!-- Promo Code Section -->
+    <div id="promo-code-section">
+      <h3>Apply Promo Code</h3>
+      <label for="promo-code">Enter Promo Code:</label>
+      <input type="text" id="promo-code" placeholder="Promo Code">
+      <button id="apply-promo">Apply</button>
+      <p id="promo-message"></p>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
